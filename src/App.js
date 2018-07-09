@@ -7,12 +7,9 @@ import './style.css';
 const BasicExample = () => (
   <Router>
     <div>
-      
-
-     
-
       <Route exact path="/" component={Signin} />
       <Route path="/auth/sign-up" component={Signup} />
+	  //<Route path="/auth/sign-up" component={Signin} /> I also tried this as workaround, but that didn't work sadly.
       
     </div>
   </Router>
