@@ -13,6 +13,8 @@ const BasicExample = () => (
     <div>
         <Switch>
             <Route exact path="/" component={Signin}/>
+			<Route path="/auth/sign-in" component={Signin}/>
+
             <Route path="/auth/sign-up" component={Signup}/>
         </Switch>
     </div>
